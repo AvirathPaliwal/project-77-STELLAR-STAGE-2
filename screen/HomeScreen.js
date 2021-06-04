@@ -62,11 +62,11 @@ const styles = StyleSheet.create({
     },
     imageIcon: {
         position: 'absolute',
-        width: 190,
-        height: 190,
+        width: 120,
+        height: 120,
         resizeMode: 'contain',
-        right: 670,
-        top: -20
+        right: 130,
+        top: -5
     },
     routeCards: {
         flex: 0.25,
@@ -79,10 +79,10 @@ const styles = StyleSheet.create({
         backgroundColor: 'black'
     },
     titleText: {
-        fontSize: 35,
+        fontSize: 27,
         color: 'cyan',
         fontWeight: "bold",
-        marginTop:130
+        marginTop:27
     },
     titleBar: {
         flex: 0.5,
@@ -93,15 +93,15 @@ const styles = StyleSheet.create({
         color: 'white',
         fontSize: 25,
         fontWeight: "bold",
-        paddingRight: 120
+        paddingRight: 60
     },
     routeImage:{
         position:'absolute',
         width:150,
         height:150,
         resizeMode:'contain',
-        right:100,
-        top:-80
+        right:-50,
+        top:-90
     },
 
 })
